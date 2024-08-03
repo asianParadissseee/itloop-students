@@ -4,6 +4,12 @@
     "lib": ["DOM", "ES2020"],
     "module": "ESNext",
     "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "jsxImportSource": "vue",
     "noEmit": true,
     "strict": true,
