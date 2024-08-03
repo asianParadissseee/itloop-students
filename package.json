@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.4.19"
@@ -13,6 +14,7 @@
   "devDependencies": {
     "@rsbuild/core": "1.0.1-beta.9",
     "@rsbuild/plugin-vue": "1.0.1-beta.9",
+    "husky": "^9.1.4",
     "typescript": "^5.5.2"
   }
 }
