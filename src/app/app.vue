@@ -1,7 +1,6 @@
 <template>
   <a-style-provider hash-priority="high">
-<p style="color: black">
-</p>
+  <p class="text-red-500">WORK</p>
   </a-style-provider>
 </template>
 
