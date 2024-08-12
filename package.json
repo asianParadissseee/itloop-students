@@ -9,7 +9,9 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "vue": "^3.4.19"
+    "pinia": "^2.2.1",
+    "vue": "^3.4.19",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "@rsbuild/core": "1.0.1-beta.9",
