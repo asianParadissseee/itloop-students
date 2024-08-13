@@ -1,4 +1,4 @@
-import {TypeCard} from "@/shared/types/type-card.ts";
+import {TypeCard} from "@/shared/const/type-card.ts";
 
 export interface Card {
     id: number
